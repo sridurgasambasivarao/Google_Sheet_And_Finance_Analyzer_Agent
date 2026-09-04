@@ -3,14 +3,14 @@
       "command": "uvx",
       "args": ["--with", "mcp<2", "mcp-google-sheets"],    
       "env": {
-        "CREDENTIALS_PATH": "F:\\Ganesha\\Test\\credentials.json", 
-        "TOKEN_PATH": "F:\\Ganesha\\Test\\token.json"        
+        "CREDENTIALS_PATH": "F:\\Ganesha\\Google_Sheet_And_Finance_Analyzer_Agent\\credentials.json", 
+        "TOKEN_PATH": "F:\\Ganesha\\Google_Sheet_And_Finance_Analyzer_Agent\\token.json"        
       },
       "transport": "stdio"
     },   
     "yahoo-finance": {
-      "command": "F:\\Ganesha\\MCP_1\\myenv\\Scripts\\python.exe",
-      "args": ["F:\\Ganesha\\MCP_1\\server.py"],
+      "command": "F:\\Ganesha\\Yahoo_Finance_MCP_Server\\myenv\\Scripts\\python.exe",
+      "args": ["F:\\Ganesha\\Yahoo_Finance_MCP_Server\\server.py"],
       "transport": "stdio"
     }    
 }
