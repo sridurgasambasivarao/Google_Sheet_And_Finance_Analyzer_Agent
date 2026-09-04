@@ -1,0 +1,16 @@
+{
+    "google-sheets": {
+      "command": "uvx",
+      "args": ["--with", "mcp<2", "mcp-google-sheets"],    
+      "env": {
+        "CREDENTIALS_PATH": "F:\\Ganesha\\Test\\credentials.json", 
+        "TOKEN_PATH": "F:\\Ganesha\\Test\\token.json"        
+      },
+      "transport": "stdio"
+    },   
+    "yahoo-finance": {
+      "command": "F:\\Ganesha\\MCP_1\\myenv\\Scripts\\python.exe",
+      "args": ["F:\\Ganesha\\MCP_1\\server.py"],
+      "transport": "stdio"
+    }    
+}
